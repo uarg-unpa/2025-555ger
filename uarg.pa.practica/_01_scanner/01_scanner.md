@@ -32,7 +32,7 @@ int edad = scanner.nextInt();
 
 System.out.println("Hola " + nombre + ", tienes " + edad + " años.");
 ```
-
+// hola mundo
 ## 4. **Validar entradas**
 Para evitar errores si el usuario ingresa algo incorrecto, usa métodos como `hasNextInt()` o `hasNextDouble()` para comprobar si la entrada es válida antes de leerla.
 
@@ -44,10 +44,9 @@ if (scanner.hasNextInt()) {
     System.out.println("El número es: " + numero);
 } else {
     System.out.println("Por favor, ingresa un número entero válido.");
-    scanner.next(); // Descarta la entrada incorrecta
+    scanner.next(); // Descarta la entrada incorrecta 
 }
 ```
-
 ## 5. **Limpiar el buffer**
 Si lees un número (como con `nextInt()`) y luego una línea de texto (con `nextLine()`), debes limpiar el buffer para evitar problemas. Agrega esta línea después de leer un número:
 ```java
