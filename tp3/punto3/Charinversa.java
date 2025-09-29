@@ -1,4 +1,4 @@
-package tp3;
+package tp3.punto3;
 /* 3. Realice un programa que dado el ingreso de una palabra como cadena de caracteres, permita visualizarla
 en forma inversa. */
 public class Charinversa{

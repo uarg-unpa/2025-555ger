@@ -1,4 +1,4 @@
-package tp3;
+package tp3.punto3;
 public class Charsinmenu{
     private char [] pila;
     private int cima;
